@@ -14,7 +14,5 @@
 	"rangeStrategy": "replace",
 	"semanticCommits": "enabled",
 	"timezone": "US/Central",
-	"baseBranches": [
-		"main"
-	]
+	"baseBranch": "main"
 }
