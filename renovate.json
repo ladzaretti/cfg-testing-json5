@@ -12,7 +12,7 @@
 	],
 	"onboarding": false,
 	"rangeStrategy": "replace",
-	"semanticCommits": "enabled",
+	"semanticCommits": true,
 	"timezone": "US/Central",
 	"baseBranch": "main"
 }
