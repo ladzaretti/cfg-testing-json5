@@ -9,11 +9,12 @@
     ':maintainLockFilesDisabled',
     ':autodetectPinVersions',
     'group:monorepos',
-    'helpers:oddIsUnstablePackages'
   ],
   onboarding: false,
-  pinVersions: false,
-  semanticCommits: true,
+  rangeStrategy: 'replace',
+  semanticCommits: 'enabled',
   timezone: 'US/Central',
-  baseBranch: 'main' // thats a comment
+  baseBranches: [
+    'main',
+  ],
 }
