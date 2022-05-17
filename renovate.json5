@@ -14,7 +14,8 @@
   onboarding: false,
   pinVersions: false,
   semanticCommits: true,
-  branchPrefix: "dep/",
+  branchPrefix: "new/",
+  branchPrefixOld: "dep/",
   timezone: 'US/Central',
   baseBranch: 'main' // thats a comment
 }
